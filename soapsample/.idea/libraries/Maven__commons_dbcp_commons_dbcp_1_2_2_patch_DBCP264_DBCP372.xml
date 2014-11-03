@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: commons-dbcp:commons-dbcp:1.2.2.patch_DBCP264_DBCP372">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/commons-dbcp/commons-dbcp/1.2.2.patch_DBCP264_DBCP372/commons-dbcp-1.2.2.patch_DBCP264_DBCP372.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/commons-dbcp/commons-dbcp/1.2.2.patch_DBCP264_DBCP372/commons-dbcp-1.2.2.patch_DBCP264_DBCP372-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/commons-dbcp/commons-dbcp/1.2.2.patch_DBCP264_DBCP372/commons-dbcp-1.2.2.patch_DBCP264_DBCP372-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

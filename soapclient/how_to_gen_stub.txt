@@ -1,0 +1,3 @@
+Move to soapclient directory and execute following command.
+
+wsimport -s src/stub/java -d target/classes http://<URL of WSDL>
