@@ -63,9 +63,7 @@
         <import resource="classpath:META-INF/cxf/cxf.xml"/>
         <import resource="classpath:META-INF/cxf/cxf-extension-soap.xml"/>
     -->
-    <bean id="helloServiceEndpoint" class="com.example.app.soapserver.endpoint.HelloServiceEndpoint"/>
-    <jaxws:endpoint id="helloWorld" implementor="#helloServiceEndpoint" address="/HelloService"/>
 
-    <bean id="sampleServiceEndpoint" class="com.example.app.soapserver.endpoint.sample.SampleServiceEndpoint"/>
+    <bean id="sampleServiceEndpoint" class="com.example.app.soapserver.endpoint.sample.SampleServiceEndpointStub"/>
     <jaxws:endpoint id="sample" implementor="#sampleServiceEndpoint" address="/SampleService"/>
 </beans>
