@@ -9,13 +9,16 @@
         http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
 
     <!-- JAX-WS Stub -->
-    <bean id="helloService" class="com.example.app.soapserver.endpoint.HelloService" />
+    <!--<bean id="helloService" class="com.example.app.soapserver.endpoint.HelloService" />-->
+    <bean id="sampleService" class="com.example.app.soapserver.endpoint.sample.SampleService" />
 
     <!-- JAX-WS Proxy Stub -->
+    <!--
     <bean id="helloServiceEndpointProxy" class="com.example.app.soapserver.endpoint.HelloServiceEndpoint"
           factory-bean="clientFactory" factory-method="create"/>
     <bean id="clientFactory" class="org.apache.cxf.jaxws.JaxWsProxyFactoryBean">
         <property name="serviceClass" value="com.example.app.soapserver.endpoint.HelloServiceEndpoint"/>
         <property name="address" value="http://localhost:8080/soapserver/ws/HelloService"/>
     </bean>
+    -->
 </beans>
